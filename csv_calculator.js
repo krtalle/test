@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-// Example usage:
+// Example usage::
 const data = loadSalesData("sales.csv");
 const totalSales = calculateTotalSales(data);
 displayResults(totalSales, "Total Sales");
